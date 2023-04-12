@@ -1,0 +1,28 @@
+// Row data
+{
+  level: 1,
+  color: "",
+  isHeaderShown: true|false
+  // Column BE data
+  channels: "",
+  tags: '',
+  status:'',
+  status: {
+    type: 'filled|tag|avatar|text',
+    value: '' | []
+  }
+  launchDate: '',
+  data: [{}]
+}
+
+// Progress data
+{
+  header: {
+    icon: <GoogleIcon sx={{ fontSize: '1.3rem' }} />,
+    title: 'Display Progress',
+    color: '#0F9D58',
+  },
+  table: [
+    // Row data
+  ]
+}

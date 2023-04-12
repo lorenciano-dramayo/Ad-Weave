@@ -1,0 +1,12 @@
+#rememberMeCheckBox p {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #707683;
+    margin-left: 8px;
+}
+
+#rememberMeCheckBox {
+    margin-top: 10px;
+}

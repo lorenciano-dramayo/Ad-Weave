@@ -1,0 +1,127 @@
+/* Concept Header Start */
+#concept_status--select .css-1659gck-MuiInputBase-root-MuiOutlinedInput-root .MuiSvgIcon-root {
+  display: none;
+}
+
+#concept_status--select .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  width: 183px;
+}
+
+.date_input--form {
+  background-color: transparent;
+  border: transparent;
+  color: #bfbfbf;
+  font-size: 1em;
+  font-family: Karla, Roboto;
+  /* display: flex;
+  */
+  font-weight: 400;
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+  outline: none;
+  align-self: center;
+  text-transform: uppercase;
+}
+
+.date_input--form-active {
+  background-color: transparent;
+  border: transparent;
+  color: rgb(102, 102, 102);
+  font-size: 1em;
+  font-family: Karla, Roboto;
+  text-transform: uppercase;
+  /* display: flex;
+  */
+  font-weight: 400;
+  padding: 0px;
+  text-align: center;
+  align-items: center;
+  outline: none;
+  align-self: center;
+}
+
+.additional_info--form {
+  background-color: transparent;
+  border: transparent;
+  color: rgb(102, 102, 102);
+  font-size: 1em;
+  font-family: Karla, Roboto;
+  font-weight: 400;
+  padding: 0px;
+  text-align: left;
+  align-items: center;
+  outline: none;
+  width: 100%;
+  align-self: center;
+  border: 1px solid #DF3C76;
+}
+
+
+
+/* Concept Header End */
+
+input {
+  position: relative;
+}
+
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  background: transparent;
+  bottom: 0;
+  color: transparent;
+  cursor: pointer;
+  height: auto;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: auto;
+}
+
+.active-stepper-google{
+  animation: breathe-google 2s linear infinite;
+}
+
+.active-stepper-facebook{
+  animation: breathe-facebook 2s linear infinite;
+}
+
+.active-stepper-youtube{
+  animation: breathe-youtube 2s linear infinite;
+}
+
+@keyframes breathe-google {
+  0% {
+ box-shadow: 0 0 0 6px rgb(15 157 88 / 17%);
+  }
+  50% {
+ box-shadow: 0 0 0 0px rgb(15 157 88 / 17%);
+  }
+  100% {
+ box-shadow: 0 0 0 6px rgb(15 157 88 / 17%);
+  }
+ }
+
+ @keyframes breathe-facebook {
+  0% {
+ box-shadow: 0 0 0 6px rgb(66 133 244 / 17%);
+  }
+  50% {
+ box-shadow: 0 0 0 0px rgb(66 133 244 / 17%);
+  }
+  100% {
+ box-shadow: 0 0 0 6px rgb(66 133 244 / 17%);
+  }
+ }
+
+ @keyframes breathe-youtube {
+  0% {
+ box-shadow: 0 0 0 6px rgb(186 32 46 / 17%);
+  }
+  50% {
+ box-shadow: 0 0 0 0px rgb(186 32 46 / 17%);
+  }
+  100% {
+ box-shadow: 0 0 0 6px rgb(186 32 46 / 17%);
+  }
+ }

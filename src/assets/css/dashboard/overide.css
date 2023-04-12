@@ -1,0 +1,7 @@
+#dashboard-main .MuiSwitch-switchBase.PrivateSwitchBase-root.Mui-checked {
+    color: #28a745 !important;
+}
+
+#dashboard-main .MuiSwitch-switchBase.PrivateSwitchBase-root {
+    color: gray !important;
+}

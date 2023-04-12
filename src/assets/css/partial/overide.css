@@ -1,0 +1,39 @@
+#tabsWrapper {
+  box-shadow: 0px 2px 0px rgb(0 0 0) !important;
+  background-color: white;
+}
+
+.MuiTab-labelIcon {
+  padding-left: 0;
+}
+
+.MuiTab-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-right: 1px solid #333;
+  padding-right: 30px;
+}
+
+.MuiLinearProgress-barColorPrimary {
+  background: linear-gradient(180deg, #df3c76 0%, #492ebc 210%);
+}
+
+.MuiLinearProgress-colorPrimary {
+  background: rgba(223, 60, 118, 0.5);
+}
+
+.tooltip {
+  visibility: hidden !important;
+  position: absolute;
+  top: 105px;
+  cursor: pointer;
+  height: 100px;
+}
+
+.tooltip-on-hover:hover + .tooltip {
+  /* Uses the adjacent sibling selector */
+  visibility: visible !important;
+  position: absolute;
+  top: 105px;
+}

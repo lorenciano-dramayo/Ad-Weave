@@ -1,0 +1,11 @@
+.MuiInput-underline:before {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.42) !important;
+}
+
+.MuiBackdrop-root {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#overview_selectRevision {
+    padding: 10px 20px 10px 10px;
+}
